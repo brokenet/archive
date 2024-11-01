@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none ;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+.anim1{ 
+    opacity: 0.5;
+    transition: 1s;
+
+}
+.anim2{
+    display: none;
+}
+.anim4{
+    transition: 1s;
+    opacity: 0;
+}
+.button{
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+.hide{
+    display: none;
+}

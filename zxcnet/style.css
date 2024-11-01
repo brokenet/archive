@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+}
+.body{
+    background-color: black;
+}
+.osn{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.k{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.pointer{
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 15px;
+}
+.animation{
+    transition: 0.2s;
+}
+.animation:hover{
+    color: rgb(160, 160, 160) !important;
+}
+.some{
+    border: 1px solid white;
+    padding: 10px;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+}
+.some2{
+    border: 1px solid white;
+    padding: 10px;
+}
